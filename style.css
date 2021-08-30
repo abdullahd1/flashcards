@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+body {
+    background-image: url("images/world.png");
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+}
+.card {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front {
+    background-color: antiquewhite;
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+}
+
+.back {
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+.container:hover .card{
+    transform: rotateY(180deg);
+}
