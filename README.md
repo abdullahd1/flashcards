@@ -1,5 +1,5 @@
-# flashcards
+# Flashcards
 Flashcards project | Hyperskill 
 
 
-This is a simple Flipping cards project which is part of Frotend Developer track, to visit project page: https://hyperskill.org/projects/115?track=5
+This is a simple Flipping Cards project ([Flashcards](https://hyperskill.org/projects/115?track=5)) which is part of [Frontend Developer](https://hyperskill.org/tracks/5) track at Hyperskill.
